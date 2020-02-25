@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
-import ElementUI from 'element-ui'
+import { Button, Input, ColorPicker, Divider, Slider, Upload, Select, Option, Form, FormItem, Tooltip, Popover, Dialog, Dropdown, DropdownMenu, DropdownItem, Progress, Message } from 'element-ui'
 // bus
 import bus from './utils/x-bus'
 
@@ -14,7 +14,24 @@ import http from './utils/x-request'
 
 import * as filters from './utils/x-filters' // global request
 // ui
-Vue.use(ElementUI)
+Vue.use(Button)
+Vue.use(Input)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Tooltip)
+Vue.use(Popover)
+Vue.use(Dialog)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Slider)
+Vue.use(Upload)
+Vue.use(ColorPicker)
+Vue.use(Divider)
+Vue.use(Progress)
+Vue.prototype.$message = Message
 // vue bus
 Vue.use(bus)
 // request
