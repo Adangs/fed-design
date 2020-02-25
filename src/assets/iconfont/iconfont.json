@@ -1,0 +1,219 @@
+{
+  "id": "1624157",
+  "name": "马到-广告系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "http://ad.madaomall.com",
+  "glyphs": [
+    {
+      "icon_id": "619258",
+      "name": "图标1_视频原始比例 ",
+      "font_class": "030",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "1813896",
+      "name": "实际大小",
+      "font_class": "029",
+      "unicode": "e796",
+      "unicode_decimal": 59286
+    },
+    {
+      "icon_id": "12578981",
+      "name": "text-color",
+      "font_class": "027",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "12578982",
+      "name": "text-background",
+      "font_class": "028",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "10463854",
+      "name": "加粗",
+      "font_class": "014",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "10463855",
+      "name": "斜体",
+      "font_class": "015",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10463856",
+      "name": "下划线",
+      "font_class": "016",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10463857",
+      "name": "插入代码",
+      "font_class": "026",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10463859",
+      "name": "删除线",
+      "font_class": "017",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "10463877",
+      "name": "居右对齐",
+      "font_class": "020",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10463878",
+      "name": "居中对齐",
+      "font_class": "019",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "10463879",
+      "name": "居左对齐",
+      "font_class": "018",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "10463880",
+      "name": "两端对齐",
+      "font_class": "021",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "10463883",
+      "name": "行间距",
+      "font_class": "022",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "10463884",
+      "name": "字间距",
+      "font_class": "023",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "10463886",
+      "name": "有序列表",
+      "font_class": "025",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "10463888",
+      "name": "无序列表",
+      "font_class": "024",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "11494988",
+      "name": "复制",
+      "font_class": "012",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "11494998",
+      "name": "管理2",
+      "font_class": "011",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "11495009",
+      "name": "解锁",
+      "font_class": "010",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "11495014",
+      "name": "列表",
+      "font_class": "013",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "11495018",
+      "name": "密码",
+      "font_class": "009",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "12243722",
+      "name": "text",
+      "font_class": "002",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "12243723",
+      "name": "textbox",
+      "font_class": "006",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "12243725",
+      "name": "burn_in",
+      "font_class": "001",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "12243731",
+      "name": "coord",
+      "font_class": "004",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "12243733",
+      "name": "darkroom",
+      "font_class": "005",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "12243738",
+      "name": "picture",
+      "font_class": "003",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "12243743",
+      "name": "scope",
+      "font_class": "008",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "12243744",
+      "name": "material",
+      "font_class": "007",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

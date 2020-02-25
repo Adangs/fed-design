@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
 import ElementUI from 'element-ui'
+// bus
+import bus from './utils/x-bus'
 
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/style/index.less' // global css
@@ -13,6 +15,8 @@ import http from './utils/x-request'
 import * as filters from './utils/x-filters' // global request
 // ui
 Vue.use(ElementUI)
+// vue bus
+Vue.use(bus)
 // request
 Vue.use(http)
 // register global utility filters.
