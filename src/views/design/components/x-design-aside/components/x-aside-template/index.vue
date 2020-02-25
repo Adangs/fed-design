@@ -36,7 +36,10 @@ export default {
     getList () {
       for (const key in Layouts) {
         Layouts[key].forEach(item => {
-          this.list.push(item)
+          // 带有基础数据的添加到列表内
+          if (item.layouts) {
+            this.list.push(item)
+          }
         })
       }
     },

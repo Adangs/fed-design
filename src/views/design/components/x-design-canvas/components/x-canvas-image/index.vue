@@ -3,7 +3,7 @@
     <el-image
       :src="params.url"
       :style="{ opacity: params.opacity }"
-      fit="contain"
+      fit="fill"
       @dblclick.native="onDblclick"
     />
   </div>
