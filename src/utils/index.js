@@ -6,7 +6,8 @@ export function setCookie (name, value) {
 }
 // 设置cookie
 export function getCookie (name) {
-  return Cookies.get(name)
+  return 'token'
+  // return Cookies.get(name)
 }
 // 删除cookie
 export function removeCookie (name) {
