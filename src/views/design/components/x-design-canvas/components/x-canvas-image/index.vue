@@ -1,12 +1,5 @@
 <template>
-  <div class="x-canvas-image element-content">
-    <el-image
-      :src="params.url"
-      :style="{ opacity: params.opacity }"
-      fit="fill"
-      @dblclick.native="onDblclick"
-    />
-  </div>
+  <div class="x-canvas-image element-content" :style="style" @dblclick.native="onDblclick" />
 </template>
 
 <script>
@@ -24,10 +17,22 @@ export default {
     }
   },
   data () {
-    return {}
+    return {
+
+    }
   },
-  computed: {},
-  watch: {},
+  computed: {
+    style () {
+      return {
+        'opacity': this.params.opacity,
+        'background': `url(${this.params.url}) no-repeat center center`,
+        'background-size': 'cover'
+      }
+    }
+  },
+  watch: {
+
+  },
   created () {
 
   },
@@ -39,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss">
   .x-canvas-image{
     width: 100%; height: 100%;
   }

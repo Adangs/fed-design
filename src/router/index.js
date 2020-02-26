@@ -13,7 +13,7 @@ Vue.use(Router)
 const whiteList = ['/', '/login']
 
 const router = new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: staticRouter
 })
 
