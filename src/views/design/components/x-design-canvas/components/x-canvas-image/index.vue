@@ -25,7 +25,9 @@ export default {
     style () {
       return {
         'opacity': this.params.opacity,
-        'background': `url(${this.params.url}) no-repeat center center`,
+        'background-image': `url(${this.params.url})`,
+        'background-repeat': 'no-repeat',
+        'background-position': 'center center',
         'background-size': 'cover'
       }
     }
